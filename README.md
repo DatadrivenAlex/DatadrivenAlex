@@ -24,8 +24,8 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 
 | Track | Target titles | Proof in this profile |
 | :--- | :--- | :--- |
-| **1. AI / GenAI** | Junior AI Developer/Engineer, GenAI Developer, Junior LLM Engineer, AI Automation, Prompt Engineer, AI Solutions Developer | `enterprise-rag-assistant`, `agentic-workflow-mcp`, `nl2sql-analytics-agent` |
-| **2. Python / Backend** | Python Developer, Python Backend, Backend Engineer, Software Engineer – AI/ML, Data Engineer (Python/ETL) | `python-backend-etl-pipeline` (+ API layers in GenAI repos) |
+| **1. AI / GenAI** | Junior AI Developer/Engineer, GenAI Developer, Junior LLM Engineer, AI Automation, Prompt Engineer, AI Solutions Developer | `enterprise-rag-assistant`, `agentic-workflow-mcp`, `nl2sql-analytics-agent`, `document-ai-extractor`, `semantic-search-embeddings` |
+| **2. Python / Backend** | Python Developer, Python Backend, Backend Engineer, Software Engineer – AI/ML, Data Engineer (Python/ETL) | `python-backend-etl-pipeline`, `airflow-data-pipeline` (Data Eng) (+ API layers in GenAI repos) |
 | **3. Data Analytics & Science** | Data Analyst, Junior Data Scientist, BI Analyst, Analytics Engineer | `data-bi-analytics-suite`, `ml-churn-prediction-mlops` (MLOps) |
 | **4. Cybersecurity & AI Security** | Junior Cybersecurity Analyst, SOC Tier 1, AI/LLM Security Analyst | `ai-security-guardrails`, `soc-log-anomaly-detector` (+ guardrails in `enterprise-rag-assistant`) |
 | **5. QA Automation & AI Evaluation** | QA Automation (Python), AI Quality / LLM Evaluation, AI Trainer / Data Specialist | `llm-evaluation-harness`, `playwright-qa-automation` (+ pytest across repos) |
@@ -58,6 +58,9 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 | **[ml-churn-prediction-mlops](https://github.com/DatadrivenAlex/ml-churn-prediction-mlops)** | Churn ML pipeline: scikit-learn training, experiment tracking, model registry, FastAPI serving, and PSI drift checks (48 tests) | Data Analytics, MLOps | Python, scikit-learn, FastAPI |
 | **[soc-log-anomaly-detector](https://github.com/DatadrivenAlex/soc-log-anomaly-detector)** | SOC Tier-1 log triage: rule and IsolationForest detections with MITRE ATT&CK mapping (68 tests) | Cyber, AI Security | Python, scikit-learn, Pytest |
 | **[playwright-qa-automation](https://github.com/DatadrivenAlex/playwright-qa-automation)** | Playwright + httpx QA framework: page objects and CI HTML reports (53 tests) | QA/Eval | Python, Playwright, httpx |
+| **[airflow-data-pipeline](https://github.com/DatadrivenAlex/airflow-data-pipeline)** | Airflow ELT on USGS earthquake data: DuckDB/Postgres SQL layers, data quality gates, and Docker Compose (46 tests) | Python/Backend, Data Eng | Python, Airflow, DuckDB, PostgreSQL |
+| **[document-ai-extractor](https://github.com/DatadrivenAlex/document-ai-extractor)** | OCR and rule/LLM-fallback field extraction for invoices and receipts: Pydantic validation, per-field accuracy eval, and FastAPI (77 tests) | AI | Python, FastAPI, Pydantic |
+| **[semantic-search-embeddings](https://github.com/DatadrivenAlex/semantic-search-embeddings)** | BM25 vs FAISS dense vs hybrid RRF retrieval: recall@k/MRR/nDCG eval, optional MiniLM fine-tune, and FastAPI (67 tests) | AI | Python, FAISS, FastAPI |
 
 ---
 
