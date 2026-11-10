@@ -48,9 +48,11 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 
 | Repository | Description | Tracks | Tech |
 | :--- | :--- | :--- | :--- |
-| **[enterprise-rag-assistant](https://github.com/DatadrivenAlex/enterprise-rag-assistant)** | Production RAG QA over enterprise docs with source attribution, prompt-injection guardrails, and evaluation hooks | AI, AI Security, QA/Eval | Python, LangChain, ChromaDB, FastAPI |
-| **[agentic-workflow-mcp](https://github.com/DatadrivenAlex/agentic-workflow-mcp)** | Multi-agent orchestration with memory, routing, and MCP tools | AI / Automation | LangGraph, CrewAI, MCP, Python |
-| **[python-backend-etl-pipeline](https://github.com/DatadrivenAlex/python-backend-etl-pipeline)** | High-throughput ETL + backend service showcasing 10+ years enterprise Python | Python/Backend, Data Eng, QA | Python, Pandas, PostgreSQL, Docker |
+| **[webhook-delivery-lab](https://github.com/DatadrivenAlex/webhook-delivery-lab)** | New backend demo: simulated webhook delivery, idempotency and retries | Python / Backend | Python, FastAPI, SQLite |
+| **[ops-observability-dashboard](https://github.com/DatadrivenAlex/ops-observability-dashboard)** | New static dashboard with synthetic service metrics | Full stack / UI | React, TypeScript, Vite |
+| **[enterprise-rag-assistant](https://github.com/DatadrivenAlex/enterprise-rag-assistant)** | Offline RAG demo with source attribution, prompt-injection heuristics, and evaluation hooks | AI, AI Security, QA/Eval | Python, LangChain, ChromaDB, FastAPI |
+| **[agentic-workflow-mcp](https://github.com/DatadrivenAlex/agentic-workflow-mcp)** | Multi-agent demo with memory, routing, and in-process MCP tools | AI / Automation | LangGraph, CrewAI-shaped layer, MCP, Python |
+| **[python-backend-etl-pipeline](https://github.com/DatadrivenAlex/python-backend-etl-pipeline)** | ETL and backend demo drawing on Python and data-pipeline experience | Python/Backend, Data Eng, QA | Python, Pandas, PostgreSQL, Docker |
 | **[data-bi-analytics-suite](https://github.com/DatadrivenAlex/data-bi-analytics-suite)** | End-to-end analytics: SQL KPIs, Pandas transforms, BI handoff (Power BI / Tableau) | Data / BI / Analytics Eng | Python, SQL, Pandas, BI |
 | **[ai-security-guardrails](https://github.com/DatadrivenAlex/ai-security-guardrails)** | LLM request firewall: prompt-injection heuristics, PII sanitize, OWASP LLM Top 10 demos | AI Security, Cyber | Python, FastAPI, Pytest |
 | **[llm-evaluation-harness](https://github.com/DatadrivenAlex/llm-evaluation-harness)** | Offline LLM/RAG eval metrics, golden datasets, CI quality gates | QA/Eval | Python, Pytest, CLI |
@@ -61,6 +63,19 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 | **[airflow-data-pipeline](https://github.com/DatadrivenAlex/airflow-data-pipeline)** | Airflow ELT on USGS earthquake data: DuckDB/Postgres SQL layers, data quality gates, and Docker Compose (46 tests) | Python/Backend, Data Eng | Python, Airflow, DuckDB, PostgreSQL |
 | **[document-ai-extractor](https://github.com/DatadrivenAlex/document-ai-extractor)** | OCR and rule/LLM-fallback field extraction for invoices and receipts: Pydantic validation, per-field accuracy eval, and FastAPI (77 tests) | AI | Python, FastAPI, Pydantic |
 | **[semantic-search-embeddings](https://github.com/DatadrivenAlex/semantic-search-embeddings)** | BM25 vs FAISS dense vs hybrid RRF retrieval: recall@k/MRR/nDCG eval, optional MiniLM fine-tune, and FastAPI (67 tests) | AI | Python, FAISS, FastAPI |
+
+---
+
+### Open-source resources
+
+These are third-party projects and learning resources, not my own repositories or contributions.
+
+- [LangChain](https://github.com/langchain-ai/langchain) — LLM application and agent framework.
+- [LangGraph](https://github.com/langchain-ai/langgraph) — stateful agent orchestration.
+- [Hugging Face Transformers](https://github.com/huggingface/transformers) — pretrained models and ML tooling.
+- [FastAPI](https://github.com/fastapi/fastapi) — Python API framework.
+- [CrewAI](https://github.com/crewAIInc/crewAI) — multi-agent framework.
+- [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — examples of AI agents and RAG applications.
 
 ---
 
