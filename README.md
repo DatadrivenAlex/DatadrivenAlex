@@ -48,6 +48,7 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 
 | Repository | Description | Tracks | Tech |
 | :--- | :--- | :--- | :--- |
+| **[feature-flag-control-plane](https://github.com/DatadrivenAlex/feature-flag-control-plane)** | New full-stack rollout demo: stable targeting, concurrency checks and change audit; synthetic data | Full stack / Backend / QA | TypeScript, React, Express, Zod, Playwright |
 | **[order-inventory-api](https://github.com/DatadrivenAlex/order-inventory-api)** | New order and stock reservation demo; synthetic data | Python / Backend | FastAPI, SQLite, Pytest |
 | **[api-contract-diff](https://github.com/DatadrivenAlex/api-contract-diff)** | New CLI demo for selected OpenAPI breaking changes | TypeScript / QA | TypeScript, Node.js, OpenAPI |
 | **[webhook-delivery-lab](https://github.com/DatadrivenAlex/webhook-delivery-lab)** | New backend demo: simulated webhook delivery, idempotency and retries | Python / Backend | Python, FastAPI, SQLite |
