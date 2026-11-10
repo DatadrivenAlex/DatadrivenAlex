@@ -48,6 +48,8 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 
 | Repository | Description | Tracks | Tech |
 | :--- | :--- | :--- | :--- |
+| **[order-inventory-api](https://github.com/DatadrivenAlex/order-inventory-api)** | New order and stock reservation demo; synthetic data | Python / Backend | FastAPI, SQLite, Pytest |
+| **[api-contract-diff](https://github.com/DatadrivenAlex/api-contract-diff)** | New CLI demo for selected OpenAPI breaking changes | TypeScript / QA | TypeScript, Node.js, OpenAPI |
 | **[webhook-delivery-lab](https://github.com/DatadrivenAlex/webhook-delivery-lab)** | New backend demo: simulated webhook delivery, idempotency and retries | Python / Backend | Python, FastAPI, SQLite |
 | **[ops-observability-dashboard](https://github.com/DatadrivenAlex/ops-observability-dashboard)** | New static dashboard with synthetic service metrics | Full stack / UI | React, TypeScript, Vite |
 | **[enterprise-rag-assistant](https://github.com/DatadrivenAlex/enterprise-rag-assistant)** | Offline RAG demo with source attribution, prompt-injection heuristics, and evaluation hooks | AI, AI Security, QA/Eval | Python, LangChain, ChromaDB, FastAPI |
