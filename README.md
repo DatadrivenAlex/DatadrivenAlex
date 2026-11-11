@@ -48,6 +48,8 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 
 | Repository | Description | Tracks | Tech |
 | :--- | :--- | :--- | :--- |
+| **[tenant-policy-engine](https://github.com/DatadrivenAlex/tenant-policy-engine)** | Tenant-aware policy evaluation demo: deny overrides, attribute constraints and reproducible time windows (30 tests) | Python / Backend / Security | FastAPI, Pydantic, YAML, Pytest |
+| **[rag-context-budgeter](https://github.com/DatadrivenAlex/rag-context-budgeter)** | Offline context assembly: exact UTF-8 byte budget, deduplication, source caps and citation map (35 tests) | AI / RAG / Backend | Python, FastAPI, Pydantic, CLI |
 | **[payment-reconciliation-lab](https://github.com/DatadrivenAlex/payment-reconciliation-lab)** | Invoice and payment reconciliation demo: exact Decimal amounts, partial payments and mismatch reports (32 tests) | Python / Backend / Finance | FastAPI, Pydantic, Decimal, Pytest |
 | **[data-contract-gate](https://github.com/DatadrivenAlex/data-contract-gate)** | YAML-to-CSV data contract demo: schema checks, deterministic diagnostics and CI exit codes (38 tests) | Python / Data Engineering / QA | Python, FastAPI, Pydantic, PyYAML, Pytest |
 | **[ticket-triage-lab](https://github.com/DatadrivenAlex/ticket-triage-lab)** | Support ticket classification demo with human review and synthetic training data | Python / ML / QA | FastAPI, scikit-learn, SQLite, Pytest |
