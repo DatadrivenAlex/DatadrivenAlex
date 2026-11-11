@@ -48,6 +48,7 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 
 | Repository | Description | Tracks | Tech |
 | :--- | :--- | :--- | :--- |
+| **[ticket-triage-lab](https://github.com/DatadrivenAlex/ticket-triage-lab)** | Support ticket classification demo with human review and synthetic training data | Python / ML / QA | FastAPI, scikit-learn, SQLite, Pytest |
 | **[usage-metering-service](https://github.com/DatadrivenAlex/usage-metering-service)** | SaaS usage ledger demo: tenant isolation, retry-safe events, exact rating and monthly close (53 tests) | Python / Backend / QA | FastAPI, SQLite, Decimal, Pytest |
 | **[feature-flag-control-plane](https://github.com/DatadrivenAlex/feature-flag-control-plane)** | New full-stack rollout demo: stable targeting, concurrency checks and change audit; synthetic data | Full stack / Backend / QA | TypeScript, React, Express, Zod, Playwright |
 | **[order-inventory-api](https://github.com/DatadrivenAlex/order-inventory-api)** | New order and stock reservation demo; synthetic data | Python / Backend | FastAPI, SQLite, Pytest |
