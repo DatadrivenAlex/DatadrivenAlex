@@ -48,6 +48,8 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 
 | Repository | Description | Tracks | Tech |
 | :--- | :--- | :--- | :--- |
+| **[payment-reconciliation-lab](https://github.com/DatadrivenAlex/payment-reconciliation-lab)** | Invoice and payment reconciliation demo: exact Decimal amounts, partial payments and mismatch reports (32 tests) | Python / Backend / Finance | FastAPI, Pydantic, Decimal, Pytest |
+| **[data-contract-gate](https://github.com/DatadrivenAlex/data-contract-gate)** | YAML-to-CSV data contract demo: schema checks, deterministic diagnostics and CI exit codes (38 tests) | Python / Data Engineering / QA | Python, FastAPI, Pydantic, PyYAML, Pytest |
 | **[ticket-triage-lab](https://github.com/DatadrivenAlex/ticket-triage-lab)** | Support ticket classification demo with human review and synthetic training data | Python / ML / QA | FastAPI, scikit-learn, SQLite, Pytest |
 | **[usage-metering-service](https://github.com/DatadrivenAlex/usage-metering-service)** | SaaS usage ledger demo: tenant isolation, retry-safe events, exact rating and monthly close (53 tests) | Python / Backend / QA | FastAPI, SQLite, Decimal, Pytest |
 | **[feature-flag-control-plane](https://github.com/DatadrivenAlex/feature-flag-control-plane)** | New full-stack rollout demo: stable targeting, concurrency checks and change audit; synthetic data | Full stack / Backend / QA | TypeScript, React, Express, Zod, Playwright |
