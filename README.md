@@ -48,6 +48,8 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 
 | Repository | Description | Tracks | Tech |
 | :--- | :--- | :--- | :--- |
+| **[dependency-release-planner](https://github.com/DatadrivenAlex/dependency-release-planner)** | Offline change-impact and rebuild/test batch planning; cycle diagnostics (28 tests) | Python / Backend / DevTools | Python, graph algorithms, CLI, Pytest |
+| **[slo-budget-lab](https://github.com/DatadrivenAlex/slo-budget-lab)** | Offline request-based SLO burn-rate demo; two-window rules and missing-data states (43 tests) | Python / Backend / Reliability | Python, Decimal, CLI, Pytest |
 | **[fairness-audit-lab](https://github.com/DatadrivenAlex/fairness-audit-lab)** | Offline group-level classifier metrics, Wilson intervals and small-sample warnings (15 tests) | AI / Data / Responsible ML | Python, CLI, pytest |
 | **[tenant-policy-engine](https://github.com/DatadrivenAlex/tenant-policy-engine)** | Tenant-aware policy evaluation demo: deny overrides, attribute constraints and reproducible time windows (30 tests) | Python / Backend / Security | FastAPI, Pydantic, YAML, Pytest |
 | **[rag-context-budgeter](https://github.com/DatadrivenAlex/rag-context-budgeter)** | Offline context assembly: exact UTF-8 byte budget, deduplication, source caps and citation map (35 tests) | AI / RAG / Backend | Python, FastAPI, Pydantic, CLI |
