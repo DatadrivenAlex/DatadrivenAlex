@@ -48,6 +48,8 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 
 | Repository | Description | Tracks | Tech |
 | :--- | :--- | :--- | :--- |
+| **[durable-job-queue](https://github.com/DatadrivenAlex/durable-job-queue)** | SQLite work-queue demo: leased claims, stale-worker rejection, idempotent enqueue and bounded retries (38 tests) | Python / Backend / Reliability | Python, SQLite, CLI, Pytest |
+| **[dataset-split-auditor](https://github.com/DatadrivenAlex/dataset-split-auditor)** | Offline train/validation/test overlap checks: record IDs, exact features, entity groups and temporal gaps (41 tests) | Python / Data / ML Quality | Python, JSONL, CLI, Pytest |
 | **[dependency-release-planner](https://github.com/DatadrivenAlex/dependency-release-planner)** | Offline change-impact and rebuild/test batch planning; cycle diagnostics (28 tests) | Python / Backend / DevTools | Python, graph algorithms, CLI, Pytest |
 | **[slo-budget-lab](https://github.com/DatadrivenAlex/slo-budget-lab)** | Offline request-based SLO burn-rate demo; two-window rules and missing-data states (43 tests) | Python / Backend / Reliability | Python, Decimal, CLI, Pytest |
 | **[fairness-audit-lab](https://github.com/DatadrivenAlex/fairness-audit-lab)** | Offline group-level classifier metrics, Wilson intervals and small-sample warnings (15 tests) | AI / Data / Responsible ML | Python, CLI, pytest |
