@@ -48,6 +48,8 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 
 | Repository | Description | Tracks | Tech |
 | :--- | :--- | :--- | :--- |
+| **[llm-output-contracts](https://github.com/DatadrivenAlex/llm-output-contracts)** | Structured LLM output validation: JSON Schema and citation ID allowlists; optional provider call | AI / Backend / QA | Python, JSON Schema, Pytest |
+| **[embedding-drift-monitor](https://github.com/DatadrivenAlex/embedding-drift-monitor)** | Offline embedding-distribution comparison using cosine histograms and Jensen–Shannon divergence | AI / ML Monitoring | Python, NumPy, Pytest |
 | **[durable-job-queue](https://github.com/DatadrivenAlex/durable-job-queue)** | SQLite work-queue demo: leased claims, stale-worker rejection, idempotent enqueue and bounded retries (38 tests) | Python / Backend / Reliability | Python, SQLite, CLI, Pytest |
 | **[dataset-split-auditor](https://github.com/DatadrivenAlex/dataset-split-auditor)** | Offline train/validation/test overlap checks: record IDs, exact features, entity groups and temporal gaps (41 tests) | Python / Data / ML Quality | Python, JSONL, CLI, Pytest |
 | **[dependency-release-planner](https://github.com/DatadrivenAlex/dependency-release-planner)** | Offline change-impact and rebuild/test batch planning; cycle diagnostics (28 tests) | Python / Backend / DevTools | Python, graph algorithms, CLI, Pytest |
