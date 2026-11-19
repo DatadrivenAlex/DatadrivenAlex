@@ -48,6 +48,7 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 
 | Repository | Description | Tracks | Tech |
 | :--- | :--- | :--- | :--- |
+| **[feature-store-pit-lab](https://github.com/DatadrivenAlex/feature-store-pit-lab)** | Point-in-time feature snapshots prevent future-data leakage; handles late events, freshness and idempotency | AI / ML Platform / Backend | FastAPI, SQLite, Pytest |
 | **[llm-gateway-workbench](https://github.com/DatadrivenAlex/llm-gateway-workbench)** | Local LLM gateway demo: idempotency, daily quotas, provider retries and fallback | AI / Python Backend | FastAPI, SQLite, httpx, Pytest |
 | **[secure-rag-index-demo](https://github.com/DatadrivenAlex/secure-rag-index-demo)** | Local retrieval demo: versioned documents, tenant/role filtering and lexical FTS5 citations | AI / RAG / Backend | FastAPI, SQLite FTS5, Pytest |
 | **[agent-tool-approval](https://github.com/DatadrivenAlex/agent-tool-approval)** | Offline tool routing and one-use approval demo; simulated actions | AI agents / Backend | Python, Pytest |
