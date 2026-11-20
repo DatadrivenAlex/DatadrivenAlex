@@ -48,6 +48,7 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 
 | Repository | Description | Tracks | Tech |
 | :--- | :--- | :--- | :--- |
+| **[query-plan-regression-lab](https://github.com/DatadrivenAlex/query-plan-regression-lab)** | Offline PostgreSQL EXPLAIN JSON regression gate: cost budgets, plan-shape diffs and new sequential-scan detection | Python / Backend / Database Reliability | Python, CLI, pytest, GitHub Actions |
 | **[postgres-migration-safety-gate](https://github.com/DatadrivenAlex/postgres-migration-safety-gate)** | Offline static PostgreSQL migration checks for destructive DDL, lock-prone operations and rollout sequencing; heuristic demo, not live-schema validation | Python / Backend / Data Reliability | Python, FastAPI, SQLGlot, Pytest |
 | **[model-rollout-gate](https://github.com/DatadrivenAlex/model-rollout-gate)** | Offline champion–challenger release gate with paired bootstrap intervals, segment checks and a p95 latency budget | ML Platform / Python / QA | Python, NumPy, Pydantic, scikit-learn, Pytest |
 | **[ml-dataset-lineage-registry](https://github.com/DatadrivenAlex/ml-dataset-lineage-registry)** | Immutable, schema-validated ML dataset snapshots with stable fingerprints and version lineage | Python / ML Data / Backend | FastAPI, JSON Schema, SQLite, Pytest |
