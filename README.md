@@ -24,7 +24,7 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 
 | Track | Target titles | Proof in this profile |
 | :--- | :--- | :--- |
-| **1. AI / GenAI** | Junior AI Developer/Engineer, GenAI Developer, Junior LLM Engineer, AI Automation, Prompt Engineer, AI Solutions Developer | `ml-membership-inference-audit`, `selective-prediction-lab`, `federated-learning-lab`, `enterprise-rag-assistant`, `agentic-workflow-mcp`, `nl2sql-analytics-agent`, `document-ai-extractor`, `semantic-search-embeddings` |
+| **1. AI / GenAI** | Junior AI Developer/Engineer, GenAI Developer, Junior LLM Engineer, AI Automation, Prompt Engineer, AI Solutions Developer | `ml-membership-inference-audit`, `selective-prediction-lab`, `probabilistic-forecasting-lab`, `federated-learning-lab`, `enterprise-rag-assistant`, `agentic-workflow-mcp`, `nl2sql-analytics-agent`, `document-ai-extractor`, `semantic-search-embeddings` |
 | **2. Python / Backend** | Python Developer, Python Backend, Backend Engineer, Software Engineer – AI/ML, Data Engineer (Python/ETL) | `python-backend-etl-pipeline`, `airflow-data-pipeline` (Data Eng) (+ API layers in GenAI repos) |
 | **3. Data Analytics & Science** | Data Analyst, Junior Data Scientist, BI Analyst, Analytics Engineer | `data-bi-analytics-suite`, `ml-churn-prediction-mlops` (MLOps) |
 | **4. Cybersecurity & AI Security** | Junior Cybersecurity Analyst, SOC Tier 1, AI/LLM Security Analyst | `ai-security-guardrails`, `soc-log-anomaly-detector` (+ guardrails in `enterprise-rag-assistant`) |
@@ -48,6 +48,7 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 
 | Repository | Description | Tracks | Tech |
 | :--- | :--- | :--- | :--- |
+| **[probabilistic-forecasting-lab](https://github.com/DatadrivenAlex/probabilistic-forecasting-lab)** | Leakage-aware hourly forecasting with chronological calibration and a seasonal-naive holdout baseline; synthetic demonstration | AI / Time-series / Python | scikit-learn, NumPy, CLI, pytest, GitHub Actions |
 | **[federated-learning-lab](https://github.com/DatadrivenAlex/federated-learning-lab)** | Synthetic non-IID client simulation comparing FedAvg and FedProx, with reproducible rounds and communication estimates | AI / Federated ML / Python | NumPy, CLI, pytest, GitHub Actions |
 | **[query-plan-regression-lab](https://github.com/DatadrivenAlex/query-plan-regression-lab)** | Offline PostgreSQL EXPLAIN JSON regression gate: cost budgets, plan-shape diffs and new sequential-scan detection | Python / Backend / Database Reliability | Python, CLI, pytest, GitHub Actions |
 | **[postgres-migration-safety-gate](https://github.com/DatadrivenAlex/postgres-migration-safety-gate)** | Offline static PostgreSQL migration checks for destructive DDL, lock-prone operations and rollout sequencing; heuristic demo, not live-schema validation | Python / Backend / Data Reliability | Python, FastAPI, SQLGlot, Pytest |
