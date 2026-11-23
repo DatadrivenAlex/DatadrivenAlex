@@ -48,6 +48,7 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 
 | Repository | Description | Tracks | Tech |
 | :--- | :--- | :--- | :--- |
+| **[near-duplicate-leakage-lab](https://github.com/DatadrivenAlex/near-duplicate-leakage-lab)** | Offline text-split leakage audit with exact shingle Jaccard and approximate MinHash LSH candidates; synthetic examples | AI / ML Data Quality / Python | Python, JSONL, unittest, GitHub Actions |
 | **[synthetic-data-utility-lab](https://github.com/DatadrivenAlex/synthetic-data-utility-lab)** | Compare synthetic tabular-data fidelity, downstream utility and a nearest-row disclosure proxy; generated benchmark only, not a privacy guarantee | AI / Data / Responsible ML | Python, NumPy, SciPy, scikit-learn, pytest, GitHub Actions |
 | **[lora-adaptation-lab](https://github.com/DatadrivenAlex/lora-adaptation-lab)** | Reproducible low-rank adaptation experiment with held-out error, parameter counts, and exact merge parity; synthetic NumPy demo | AI / ML Engineering / Python | Python, NumPy, unittest, GitHub Actions |
 | **[llm-trace-replay-lab](https://github.com/DatadrivenAlex/llm-trace-replay-lab)** | Deterministic offline replay and regression diffs for recorded LLM and agent traces | AI / QA / Python | Python, JSON, unittest, GitHub Actions |
