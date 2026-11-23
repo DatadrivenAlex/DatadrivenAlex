@@ -24,7 +24,7 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 
 | Track | Target titles | Proof in this profile |
 | :--- | :--- | :--- |
-| **1. AI / GenAI** | Junior AI Developer/Engineer, GenAI Developer, Junior LLM Engineer, AI Automation, Prompt Engineer, AI Solutions Developer | `ml-knowledge-distillation-lab`, `ml-membership-inference-audit`, `selective-prediction-lab`, `probabilistic-forecasting-lab`, `federated-learning-lab`, `enterprise-rag-assistant`, `agentic-workflow-mcp`, `nl2sql-analytics-agent`, `document-ai-extractor`, `semantic-search-embeddings` |
+| **1. AI / GenAI** | Junior AI Developer/Engineer, GenAI Developer, Junior LLM Engineer, AI Automation, Prompt Engineer, AI Solutions Developer | `lora-adaptation-lab`, `ml-knowledge-distillation-lab`, `ml-membership-inference-audit`, `selective-prediction-lab`, `probabilistic-forecasting-lab`, `federated-learning-lab`, `enterprise-rag-assistant`, `agentic-workflow-mcp`, `nl2sql-analytics-agent`, `document-ai-extractor`, `semantic-search-embeddings` |
 | **2. Python / Backend** | Python Developer, Python Backend, Backend Engineer, Software Engineer – AI/ML, Data Engineer (Python/ETL) | `python-backend-etl-pipeline`, `airflow-data-pipeline` (Data Eng) (+ API layers in GenAI repos) |
 | **3. Data Analytics & Science** | Data Analyst, Junior Data Scientist, BI Analyst, Analytics Engineer | `data-bi-analytics-suite`, `ml-churn-prediction-mlops` (MLOps) |
 | **4. Cybersecurity & AI Security** | Junior Cybersecurity Analyst, SOC Tier 1, AI/LLM Security Analyst | `ai-security-guardrails`, `soc-log-anomaly-detector` (+ guardrails in `enterprise-rag-assistant`) |
@@ -48,6 +48,7 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 
 | Repository | Description | Tracks | Tech |
 | :--- | :--- | :--- | :--- |
+| **[lora-adaptation-lab](https://github.com/DatadrivenAlex/lora-adaptation-lab)** | Reproducible low-rank adaptation experiment with held-out error, parameter counts, and exact merge parity; synthetic NumPy demo | AI / ML Engineering / Python | Python, NumPy, unittest, GitHub Actions |
 | **[llm-trace-replay-lab](https://github.com/DatadrivenAlex/llm-trace-replay-lab)** | Deterministic offline replay and regression diffs for recorded LLM and agent traces | AI / QA / Python | Python, JSON, unittest, GitHub Actions |
 | **[inference-batch-scheduler](https://github.com/DatadrivenAlex/inference-batch-scheduler)** | Deadline- and size-bounded micro-batch planning for compatible multi-tenant inference requests | AI / Python Backend / Reliability | Python, typed dataclasses, unittest, GitHub Actions |
 | **[rag-citation-provenance-ledger](https://github.com/DatadrivenAlex/rag-citation-provenance-ledger)** | Version-aware exact-span citation ledger that detects stale documents and mismatched quotes | AI / RAG / Data Quality | Python, SHA-256, unittest, GitHub Actions |
