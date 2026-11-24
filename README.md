@@ -90,7 +90,7 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 | **[api-contract-diff](https://github.com/DatadrivenAlex/api-contract-diff)** | New CLI demo for selected OpenAPI breaking changes | TypeScript / QA | TypeScript, Node.js, OpenAPI |
 | **[webhook-delivery-lab](https://github.com/DatadrivenAlex/webhook-delivery-lab)** | New backend demo: simulated webhook delivery, idempotency and retries | Python / Backend | Python, FastAPI, SQLite |
 | **[ops-observability-dashboard](https://github.com/DatadrivenAlex/ops-observability-dashboard)** | New static dashboard with synthetic service metrics | Full stack / UI | React, TypeScript, Vite |
-| **[enterprise-rag-assistant](https://github.com/DatadrivenAlex/enterprise-rag-assistant)** | Offline RAG demo with source attribution, prompt-injection heuristics, and evaluation hooks | AI, AI Security, QA/Eval | Python, LangChain, ChromaDB, FastAPI |
+| **[enterprise-rag-assistant](https://github.com/DatadrivenAlex/enterprise-rag-assistant)** | Offline RAG API with hybrid BM25+dense retrieval fused by RRF, source citations, and heuristic prompt-injection guardrails | AI / RAG / AI Security | Python, LangChain, ChromaDB/FAISS, FastAPI |
 | **[agentic-workflow-mcp](https://github.com/DatadrivenAlex/agentic-workflow-mcp)** | Multi-agent demo with memory, routing, and in-process MCP tools | AI / Automation | LangGraph, CrewAI-shaped layer, MCP, Python |
 | **[python-backend-etl-pipeline](https://github.com/DatadrivenAlex/python-backend-etl-pipeline)** | ETL and backend demo drawing on Python and data-pipeline experience | Python/Backend, Data Eng, QA | Python, Pandas, PostgreSQL, Docker |
 | **[data-bi-analytics-suite](https://github.com/DatadrivenAlex/data-bi-analytics-suite)** | End-to-end analytics: SQL KPIs, Pandas transforms, BI handoff (Power BI / Tableau) | Data / BI / Analytics Eng | Python, SQL, Pandas, BI |
@@ -104,6 +104,10 @@ I ship code hiring managers can clone, run, and review: typed APIs, tested pipel
 | **[document-ai-extractor](https://github.com/DatadrivenAlex/document-ai-extractor)** | OCR and rule/LLM-fallback field extraction for invoices and receipts: Pydantic validation, per-field accuracy eval, and FastAPI (77 tests) | AI | Python, FastAPI, Pydantic |
 | **[semantic-search-embeddings](https://github.com/DatadrivenAlex/semantic-search-embeddings)** | BM25 vs FAISS dense vs hybrid RRF retrieval: recall@k/MRR/nDCG eval, optional MiniLM fine-tune, and FastAPI (67 tests) | AI | Python, FAISS, FastAPI |
 
+| **[high-load-etl-validation](https://github.com/DatadrivenAlex/high-load-etl-validation)** | Reproducible 24-feed / 240,000-row ETL demo with bounded ingestion and quality gates; SQLite sink, not a distributed warehouse | Python / Data Engineering / QA | Python, SQLite, Docker, Pytest, GitHub Actions |
+| **[research-workflow-orchestrator](https://github.com/DatadrivenAlex/research-workflow-orchestrator)** | Offline LangGraph workflow with MCP retrieval, CrewAI/AutoGen review, and SQLite audit log; fictional corpus and deterministic fixture | AI / Agents / Python | LangGraph, CrewAI, AutoGen, MCP, FastAPI, SQLite |
+| **[autonomous-job-search-matching-agent](https://github.com/DatadrivenAlex/autonomous-job-search-matching-agent)** | Clean-room local matcher for supplied HTML snapshots: explainable ranking, deduplication, and SQLite/PostgreSQL; no live scraping or applications | AI / Automation / Python | Python, Playwright, SQLite, PostgreSQL |
+| **[full-stack-ai-saas-starter](https://github.com/DatadrivenAlex/full-stack-ai-saas-starter)** | Multi-tenant token-streaming starter with Redis quotas and PostgreSQL run history; starter, not production identity/billing | Full Stack / AI / Backend | TypeScript, Next.js, NestJS, PostgreSQL, Redis, WebSockets |
 ---
 
 ### Open-source resources
