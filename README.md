@@ -1,3 +1,5 @@
+![Alexandru Cojocari — AI Developer, GenAI, RAG, and agentic systems](assets/Platform_GitHub_Banner.jpeg)
+
 ### Hi there 👋 I'm Alexandru Cojocari
 
 **Junior AI Developer · Python Developer · Data Analyst** · Peine, Germany · EU citizen (Romanian)
