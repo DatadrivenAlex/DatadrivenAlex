@@ -1,6 +1,6 @@
-![Alexandru Cojocari — AI Developer, GenAI, RAG, and agentic systems](assets/Platform_GitHub_Banner.jpeg)
+![Alexandru Cojocari — AI developer portfolio and certificates](assets/cv-infographic.jpeg)
 
-![Alexandru Cojocari — AI developer portfolio](assets/ai-developer-banner.jpeg)
+![Alexandru Cojocari — AI Developer, GenAI, RAG, and agentic systems](assets/Platform_GitHub_Banner.jpeg)
 
 ### Hi there 👋 I'm Alexandru Cojocari
 
